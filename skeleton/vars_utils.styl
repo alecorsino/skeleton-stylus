@@ -1,0 +1,21 @@
+//Wearables and Minimals
+
+//Mobiles
+$mobile = 400px
+
+//Tablets
+$tablet = 550px
+
+//Screens
+$screen = 769px
+
+//Large Screens greater than ??dp
+$large-screen = 1920px
+
+$gutter = 4
+
+// ****** Functions and Mixins ********
+
+/* Calculates column size percentage */
+column-size(colSpan)
+  100 * colSpan/12 - $gutter + $gutter * colSpan/12

@@ -1,0 +1,28 @@
+{
+  "name": "skeleton-stylus",
+  "version": "1.0.0",
+  "description": "Stylus implementation fro Skeleton CSS boilerplate",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecorsino/skeleton-stylus.git"
+  },
+  "keywords": [
+    "Stylus",
+    "Skeleton"
+  ],
+  "author": "Alejandro Corsino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecorsino/skeleton-stylus/issues"
+  },
+  "homepage": "https://github.com/alecorsino/skeleton-stylus#readme"
+}
