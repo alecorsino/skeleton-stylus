@@ -9,13 +9,16 @@ $tablet = 550px
 //Screens
 $screen = 769px
 
-//Large Screens greater than ??dp
+//Large Screens
 $large-screen = 1920px
 
-$gutter = 4
+$gutter = 4 //Unit represnt percentage
 
 // ****** Functions and Mixins ********
 
-/* Calculates column size percentage */
+/* Calculates column size percentage  based on a 12 column layout*/
 column-size(colSpan)
   100 * colSpan/12 - $gutter + $gutter * colSpan/12
+
+column-offset(colOffset)
+  round(((column-size(1) + $gutter) * colOffset),2)
