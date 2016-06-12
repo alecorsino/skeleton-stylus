@@ -9,6 +9,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
+    "build-css": "stylus -I skeleton < ./skeleton/skeleton.styl > ./test/skeleton.css",
+    "conv": "stylus --css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
